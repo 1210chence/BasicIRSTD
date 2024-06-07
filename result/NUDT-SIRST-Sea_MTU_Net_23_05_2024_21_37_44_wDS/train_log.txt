@@ -1,0 +1,25 @@
+time:--23/05/2024 21:37:44
+model:--MTU_Net
+channel_size:--three
+backbone:--resnet_18
+deep_supervision:--False
+dataset:--NUDT-SIRST-Sea
+mode:--TXT
+test_size:--0.5
+root:--dataset/
+suffix:--.png
+split_method:--idx_4961+847
+workers:--6
+in_channels:--3
+base_size:--1024
+crop_size:--1024
+epochs:--1000
+start_epoch:--0
+train_batch_size:--1
+test_batch_size:--1
+min_lr:--1e-05
+optimizer:--Adagrad
+scheduler:--CosineAnnealingLR
+lr:--0.05
+gpus:--0
+save_dir:--NUDT-SIRST-Sea_MTU_Net_23_05_2024_21_37_44_wDS
